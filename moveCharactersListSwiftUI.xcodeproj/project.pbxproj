@@ -11,6 +11,10 @@
 		BF8CB46A278F44BC00B18158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CB469278F44BC00B18158 /* ContentView.swift */; };
 		BF8CB46C278F44BF00B18158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8CB46B278F44BF00B18158 /* Assets.xcassets */; };
 		BF8CB46F278F44BF00B18158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8CB46E278F44BF00B18158 /* Preview Assets.xcassets */; };
+		BF8CB476278F453500B18158 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CB475278F453400B18158 /* APIManager.swift */; };
+		BF8CB478278F47AE00B18158 /* RecivedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CB477278F47AE00B18158 /* RecivedDataModel.swift */; };
+		BF8CB47A278F5D1E00B18158 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CB479278F5D1E00B18158 /* CharacterData.swift */; };
+		BF8CB47C278F676F00B18158 /* ButtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CB47B278F676F00B18158 /* ButtomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BF8CB469278F44BC00B18158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF8CB46B278F44BF00B18158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8CB46E278F44BF00B18158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF8CB475278F453400B18158 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BF8CB477278F47AE00B18158 /* RecivedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecivedDataModel.swift; sourceTree = "<group>"; };
+		BF8CB479278F5D1E00B18158 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		BF8CB47B278F676F00B18158 /* ButtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BF8CB467278F44BC00B18158 /* moveCharactersListSwiftUIApp.swift */,
 				BF8CB469278F44BC00B18158 /* ContentView.swift */,
+				BF8CB47B278F676F00B18158 /* ButtomView.swift */,
+				BF8CB479278F5D1E00B18158 /* CharacterData.swift */,
+				BF8CB477278F47AE00B18158 /* RecivedDataModel.swift */,
+				BF8CB475278F453400B18158 /* APIManager.swift */,
 				BF8CB46B278F44BF00B18158 /* Assets.xcassets */,
 				BF8CB46D278F44BF00B18158 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8CB47A278F5D1E00B18158 /* CharacterData.swift in Sources */,
+				BF8CB47C278F676F00B18158 /* ButtomView.swift in Sources */,
+				BF8CB476278F453500B18158 /* APIManager.swift in Sources */,
 				BF8CB46A278F44BC00B18158 /* ContentView.swift in Sources */,
+				BF8CB478278F47AE00B18158 /* RecivedDataModel.swift in Sources */,
 				BF8CB468278F44BC00B18158 /* moveCharactersListSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
