@@ -27,6 +27,7 @@
 		BF8CB477278F47AE00B18158 /* RecivedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecivedDataModel.swift; sourceTree = "<group>"; };
 		BF8CB479278F5D1E00B18158 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
 		BF8CB47B278F676F00B18158 /* ButtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomView.swift; sourceTree = "<group>"; };
+		BFAB3A3A27905F2400A3FA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		BF8CB466278F44BC00B18158 /* moveCharactersListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BFAB3A3A27905F2400A3FA74 /* Info.plist */,
 				BF8CB467278F44BC00B18158 /* moveCharactersListSwiftUIApp.swift */,
 				BF8CB469278F44BC00B18158 /* ContentView.swift */,
 				BF8CB47B278F676F00B18158 /* ButtomView.swift */,
@@ -288,6 +290,7 @@
 				DEVELOPMENT_TEAM = WN5VMWRJC6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moveCharactersListSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,6 +320,7 @@
 				DEVELOPMENT_TEAM = WN5VMWRJC6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moveCharactersListSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
